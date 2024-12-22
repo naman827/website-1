@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/*! root elements*/
+
+:root {
+  ---button-color: #7cfc00;
+  ---shadow-1: rgba(161, 251, 72, 0.5);
+  ---text-color-white: #fff;
+  ---text-color-black: #000;
+  ---para-color: #a9a5a5;
+  ---bg-color: #000000;
+}
+/*! root elements*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto", sans-serif;
+  color: var(---text-color-black);
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(---para-color);
+  letter-spacing: 0.07rem;
+  line-height: 1.55rem;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+.btn-custom {
+  color: var(---text-color-white);
+  background-color: var(---button-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px var(---shadow-1);
+  margin-top: 20px;
+}
+
+.bg-white{
+  background-color: #fff;
+}
+
+.common-heading {
+  font-size: 2.8rem;
+  font-weight: 500;
+  letter-spacing: 0.01rem !important;
+}
+.common-title {
+  margin-bottom: 4.2rem;
+}
+.hero-video {
+  max-width: 100%;
+  width: 70%;
+  border-radius: 2rem;
+}
+.bg-main {
+  height: 80vh;
+  position: relative;
+}
+
+.bg-color {
+  background-color: var(---bg-color);
+}
+.hero-section .container {
+  display: grid;
+  place-content: center;
+  height: inherit;
+}
+
+.nav-link {
+  color: var(---text-color-white);
+}
+.nav-link:hover {
+  color: var(---button-color);
+}
+
+.active-color {
+  color: var(---button-color);
+}
+
+.custom-shape-divider-bottom-1730868665 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1730868665 svg {
+  position: relative;
+  display: block;
+  width: calc(113% + 1.3px);
+  height: 124px;
+}
+
+.custom-shape-divider-bottom-1730868665 .shape-fill {
+  fill: #ffffff;
+}
+
+/*services-section*/
+
+.services-section {
+  padding: 6rem 0 3rem 0 !important;
+}
+
+.card-box {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card-box:hover {
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+}
+
+.info-section {
+  background-image: linear-gradient(
+      rgba(22, 22, 22, 0.8),
+      rgba(22, 22, 22, 0.8)
+    ),
+    url(../images/pexels-veeterzy-303383.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 6rem 0;
+  overflow: hidden;
+}
+
+.info-section .image-box {
+  position: relative;
+}
+
+.info-section .image-box figure img {
+  width: 70%;
+}
+
+.business-section {
+  padding: 3rem 0;
+}
+
+.carousel .card{
+  background-color: #000000;
+  color: #fff;
+  transition: all 0.3s linear;
+} 
+
+.carousel .card:hover{
+  background-color: #fff;
+  color: #000;
+} 
+
+.carousel .card:hover p{
+  color: #000;
+}
+
+.fa-star{
+  color: #7cfc00;
+}
+
+.carousel-indicators{
+  margin-bottom: 1rem;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: #7cfc00;
+}
+
+
+/*contact-section-css*/
+.contact-section{
+  position: relative;
+}
+
+.text-gray{
+  color: #a9a5a5;
+}
+
+.info-box img{
+  width: 50px;
+}
+
+.info-bg{
+  background-color: #323131;
+}
+/*contact-section-css*/
+
+.footer-section{
+  padding: 3rem 0;
+}
+
+.pointer{
+  cursor: pointer;
+}
